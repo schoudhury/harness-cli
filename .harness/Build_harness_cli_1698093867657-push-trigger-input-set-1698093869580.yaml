@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_cli_1698093867657-push-trigger-input-set
+  identifier: Build_harness_cli_1698093867657pushtriggerinputset
+  orgIdentifier: defaultorg
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harness_cli_1698093867657
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
