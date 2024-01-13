@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_schoudhury_harness_cli_1705173817421-pr-trigger-input-set
+  identifier: Build_schoudhury_harness_cli_1705173817421prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_schoudhury_harness_cli_1705173817421
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
